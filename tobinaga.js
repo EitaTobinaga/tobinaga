@@ -1,3 +1,5 @@
-const name = "tobinaga"
-const age = 24
-console.log(name, age)
+function displayName(name, age) {
+    console.log('tobinaga' + name)
+    console.log(age)
+}
+displayName('eita',19)
