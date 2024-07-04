@@ -4,3 +4,14 @@ function displayName(name, age) {
 }
 displayName('eita',19)
 displayName("gakuto", 24)
+
+function bendingMachine(coin) {
+    if(coin >= 100) {
+        console.log('コーラ')
+    } else {
+        console.log('お金が足りません')
+    }
+}
+
+bendingMachine(120);
+bendingMachine(90);
